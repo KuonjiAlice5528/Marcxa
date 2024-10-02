@@ -1,0 +1,69 @@
+body {
+    width: 70%;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    /* an-serif y serif*/
+}
+
+h1{
+    text-align: center;
+    color: rgb(94, 223, 173);
+    font-size: 25px; 
+    font-weight: normal;/*normal o bold*/
+   border: 5px dashed rgb(102, 132, 172);
+}
+
+
+h2{
+    background-color: rgb(235, 154, 154);
+    color: white;
+    border-bottom:  1px solid rgb(196, 216, 164);
+}
+
+h2#deporte{
+    background-color: rgb(243, 243, 113);
+    margin-top: 150px;
+}
+
+#cultura{
+    background-color: rgb(177, 102, 247);
+    margin-top: 150px;
+}
+
+h3{
+    color: rgb(241, 161, 131);
+    border-bottom: 1px solid black;
+}
+
+p{
+    text-align: justify;
+    color: rgb(25, 182, 182);
+}
+
+p.volver{
+    text-align: right;
+    
+}
+
+a{
+    color: rgb(161, 209, 113);
+}
+
+a:hover{
+    background-color:rgb(161, 209, 113) ;
+    color: white;
+}
+
+li:hover{
+    background-color: rgb(231, 233, 94);
+}
+
+
+/* text-decoration: underline;   solo texto
+border-bottom: 1px solid rgb(185, 93, 59);   todo fila
+*/
+
+
+/*
+margin :  top right bottom left
+*/
