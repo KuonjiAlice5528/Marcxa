@@ -1,0 +1,57 @@
+body{
+    width: 70%;
+    height: 100vh;
+    margin: auto;
+    font-size: 0;
+}
+
+div{
+    height: 25%;
+    background-color: red;
+    width: 50%;
+    display: inline-block;
+    font-size: 12px;
+    border: 10px solid black;
+    box-sizing: border-box;
+}
+
+div:nth-child(1){
+    width: 70%;
+}
+
+div:nth-child(2){
+    width: 30%;
+    background-color: blue;
+}
+
+div:nth-child(3){
+    width: 30%;
+    background-color: green;
+}
+
+div:nth-child(4){
+    width: 70%;
+    background-color: yellow;
+}
+
+div:nth-child(5){
+    width: 70%;
+    background-color: blueviolet;
+}
+
+div:nth-child(6){
+    width: 30%;
+    background-color: gray;
+}
+
+div:nth-child(7){
+    height: 10%;
+    width: 100%;
+    background-color: black;
+}
+/*
+div:last-child{
+    height: 10%;
+    width: 100%;
+    background-color: black;
+}*/
